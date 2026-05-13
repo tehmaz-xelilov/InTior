@@ -474,6 +474,7 @@ img:hover {
 .cards .card img {
     height: auto;
     width: 100%;
+    border-radius: 25px;
 }
 
 .cards .card p:nth-child(2) {
