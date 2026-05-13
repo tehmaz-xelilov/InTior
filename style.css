@@ -36,15 +36,16 @@ header {
 
 
 @keyframes logo {
-    0%{
+    0% {
         opacity: 0;
-        transform:scale(0.7);
+        transform: scale(0.7);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: scale(1);
     }
-    
+
 }
 
 nav {
@@ -61,18 +62,19 @@ nav {
 }
 
 @keyframes nav {
-    0%{
+    0% {
         transform: translateY(-100px);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateY(0px);
         opacity: 1;
     }
-    
+
 }
 
-a:hover{
+a:hover {
     cursor: pointer;
     transform: scale(1.1);
     color: white;
@@ -84,7 +86,9 @@ nav a {
     color: black;
     font-size: clamp(14px, 6vw, 20px);
     transition: all 0.2s ease-in-out;
+
 }
+
 nav a:hover {
     cursor: pointer;
     color: orange;
@@ -100,27 +104,28 @@ nav a:hover {
     animation: btn 1s ease-in-out;
 }
 
-.btns button{
+.btns button {
     transition: all 0.2s ease-in-out;
 }
 
 .btns button:hover {
     cursor: pointer;
-    background-color:orange;
+    background-color: orange;
     color: black;
     transform: scale(1.1);
 }
 
 @keyframes btn {
-    0%{
+    0% {
         transform: translateX(100px);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateX(0px);
         opacity: 1;
     }
-    
+
 }
 
 .login,
@@ -163,11 +168,12 @@ nav a:hover {
         opacity: 0;
         transform: translateX(-100px);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateX(0px);
     }
-    
+
 }
 
 .hero-text-head h2 {
@@ -184,7 +190,8 @@ nav a:hover {
         transform: translateX(-100px);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateX(0px);
         opacity: 1;
     }
@@ -199,15 +206,16 @@ nav a:hover {
 }
 
 @keyframes p1 {
-    0%{
+    0% {
         transform: translateX(-100px);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateX(0px);
         opacity: 1;
     }
-    
+
 }
 
 .hero-text :nth-child(3) {
@@ -237,7 +245,8 @@ nav a:hover {
         transform: translateX(100px);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateX(0px);
         opacity: 1;
     }
@@ -267,7 +276,8 @@ nav a:hover {
         transform: translateX(-100px);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateX(0px);
         opacity: 1;
     }
@@ -285,7 +295,8 @@ nav a:hover {
         transform: translateX(-100px);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateX(0px);
         opacity: 1;
     }
@@ -310,7 +321,8 @@ nav a:hover {
         transform: translateY(100px);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateY(0px);
         opacity: 1;
     }
@@ -329,17 +341,18 @@ nav a:hover {
     transition: all 0.3s ease-in-out;
 }
 
-.services-cards:hover{
+.services-cards:hover {
     transform: scale(1.05);
 }
 
 
 @keyframes services-cards {
-    0%{
+    0% {
         transform: scale(1.1);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: scale(1);
         opacity: 1;
     }
@@ -372,16 +385,18 @@ nav a:hover {
 }
 
 @keyframes h2 {
-    0%{
+    0% {
         scale: 1;
     }
-    50%{
+
+    50% {
         scale: 1.03;
     }
-    100%{
+
+    100% {
         scale: 1;
-        }
-    
+    }
+
 }
 
 
@@ -404,11 +419,12 @@ nav a:hover {
 }
 
 @keyframes cards-head {
-    0%{
+    0% {
         opacity: 0;
         transform: translateY(100px);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateY(0px);
     }
@@ -419,8 +435,10 @@ nav a:hover {
     width: 90%;
     transition: all 0.3s ease-in-out;
 }
-
-img:hover{
+img{
+    transition: all 0.3s ease-in-out;
+}
+img:hover {
     transform: scale(1.05);
 }
 
@@ -447,7 +465,8 @@ img:hover{
     border-radius: 25px;
     transition: all 0.3s ease-in-out;
 }
-.cards .card:hover{
+
+.cards .card:hover {
     transform: scale(1.05);
 }
 
@@ -488,7 +507,7 @@ footer {
 
 .footer-n {
     max-width: 250px;
-    height: auto;   
+    height: auto;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -506,7 +525,8 @@ footer a {
     align-self: start;
 }
 
-.footer-n span , .footer-4 p{
+.footer-n span,
+.footer-4 p {
     font-size: clamp(15px, 6vw, 22px);
     font-weight: bold;
 }
@@ -540,7 +560,7 @@ footer a {
     height: auto;
 }
 
-.footer-bottom{
+.footer-bottom {
     height: 60px;
     display: flex;
     flex-wrap: wrap;
@@ -549,7 +569,8 @@ footer a {
     gap: 30px;
     color: white;
 }
-hr{
+
+hr {
     width: 80%;
     margin: 0 auto;
 }
