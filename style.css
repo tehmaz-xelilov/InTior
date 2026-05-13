@@ -272,12 +272,13 @@ nav a:hover {
 
 @keyframes hero-img {
     0% {
-        transform: translateX(100px);
+
+        transform: translate(-10px , -50px);
         opacity: 0;
     }
 
     100% {
-        transform: translateX(0px);
+        transform: translate(0px , 0px);
         opacity: 1;
     }
 }
