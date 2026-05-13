@@ -8,7 +8,7 @@ console.log(cem);
 
 
 // 2 ci tapsiriq
-let mehsulAdi = "kiwi";
+let mehsulAdi = "kivi";
 let mehsulQiymet = 5;
 let endirimFaizi = 20;
 let stokdaVarmi = true;
